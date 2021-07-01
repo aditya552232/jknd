@@ -1,0 +1,1532 @@
+{
+  "BackupResourceDetails": [
+    {
+      "APMNumber": "APM100005766",
+      "ContactGroup": "MG-INSITE",
+      "ProvisionProductId": "pp-xqfsta2jejzc2",
+      "SQSMessageID": "39d42291-824a-433a-85b7-567db703b348",
+      "Status": "Inprogress",
+      "Submitter": "Subramanian Natarajan",
+      "AWSServices": "BMS Services - Server + Serverless",
+      "NumberOfAZ": "2",
+      "AccessControlAdminGroup": "MG-MV-ADMIN-TEST-GROUP",
+      "AvailabilityZones": "use1-az2,use1-az4,use2-az1,use2-az2",
+      "CIDRSize": "XS - CIDR with /27- Auto Approval - ( 27 per AZ, 54 Total IPs )",
+      "Version": "v1.1",
+      "Regions": "us-east-1,us-east-2",
+      "VPC": true,
+      "ServiceCatalogKits": "DevOps Portfolio",
+      "PPM": ["PRJ1234567 (01-06-2021)"],
+      "PlatformFor": "businessApplication",
+      "ServicesResources": "First Stack+1",
+      "BusinessApplication": "multiverse",
+      "Environments": "Dev/Prod",
+      "PlatformId": "d6f4027b",
+      "TimeStamp": "2021-06-01T17:46:09.285Z",
+      "AccountAlias": "bms-test-account-cost",
+      "PlatformType": "Switch Board - BMS Connected",
+      "OtherServices": "[]",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-MV-DEVELOPER-TEST-GROUP",
+      "PlatformOwner2": "Honchong Chang",
+      "PlatformOwner1": "Subramanian Natarajan",
+      "ApprovalRequired": true,
+      "ApprovalMessage": "Test Message",
+      "Layers": [
+        {
+          "Layer1": {
+            "PlatformType": "Switch Board - BMS Connected",
+            "prod": {
+              "AccountNumber": "prod-628655113356",
+              "Tempcred": "text",
+              "PermissionType": []
+            },
+            "dev": {
+              "AccountNumber": "dev-931263372036",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ContactGroup": "MG-AWS-APP-ADMIN-TST",
+      "Regions": "us-east-1",
+      "Submitter": "Ritik S Ghanshani",
+      "ServiceCatalogKits": "devOpsPortfolio",
+      "Status": "Success",
+      "ServicesResources": "First Stack+1",
+      "TimeStamp": "2021-01-27T11:37:13.019Z",
+      "AccessControlAdminGroup": "MG-AWS-APP-ADMIN-TST",
+      "PlatformId": "9b4daf83",
+      "AccountAlias": "bms-testproject3",
+      "AccountExpirationDate": "27-01-2021",
+      "PlatformType": "Disposable Lab - Serverless",
+      "PlatformDescription": "Testing Multiverse",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "SG-CoOp-AWS-LAB-access",
+      "PlatformOwner2": "Honchong Chang",
+      "PlatformOwner1": "Ritik S Ghanshani",
+      "Layers": [
+        {
+          "Layer1": {
+            "PlatformType": "Disposable Lab - Serverless",
+            "lab": {
+              "AccountNumber": "lab-217605624141",
+              "Tempcred": "text",
+              "PermissionType": [
+                {
+                  "PermissionSet": "SSO-AdminPermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/217605624141%20%28Staging-246eeba%29/NzI3NTU2MTA4NTQyX2lucy1kMGY0YTU1MTE2MDc5NGRmX3AtNGVmNjZhOGRlODM3MmEyMg%3D%3D"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "APMNumber": "APM100005766",
+      "ContactGroup": "MG-INSITE",
+      "ProvisionProductId": "pp-m364kuiqerxce",
+      "SQSMessageID": "acd0253f-9c61-412e-9729-8477cd703bb0",
+      "Status": "Success",
+      "Submitter": "Subramanian Natarajan",
+      "AWSServices": "BMS Services - Serverless",
+      "AccessControlAdminGroup": "MG-MV-ADMIN-TEST-GROUP",
+      "Version": "v1.1",
+      "Regions": "us-east-1,us-east-2",
+      "VPC": false,
+      "ServiceCatalogKits": "DevOps Portfolio",
+      "PPM": ["PRJ1234566 (10-05-2021)"],
+      "PlatformFor": "businessApplication",
+      "ServicesResources": "First Stack+1",
+      "BusinessApplication": "multiverse",
+      "Environments": "Dev/UAT/Prod",
+      "PlatformId": "6f8567ee",
+      "TimeStamp": "2021-05-10T15:22:08.807Z",
+      "AccountAlias": "bms-testing-serverless-costing",
+      "PlatformType": "Serverless Account",
+      "OtherServices": "[]",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-MV-DEVELOPER-TEST-GROUP",
+      "PlatformOwner2": "Honchong Chang",
+      "PlatformOwner1": "Subramanian Natarajan",
+      "Layers": [
+        {
+          "Layer1": {
+            "PlatformType": "Multiverse Platform",
+            "uat": {
+              "AccountNumber": "uat-189457016603",
+              "Tempcred": "text",
+              "PermissionType": []
+            },
+            "dev": {
+              "AccountNumber": "dev-298910850630",
+              "Tempcred": "text",
+              "PermissionType": []
+            },
+            "prod": {
+              "AccountNumber": "prod-644533605050",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "APMNumber": "APM100002253",
+      "ContactGroup": "MG-AWS-MULTIVERSE-SUPPORT",
+      "ProvisionProductId": "pp-6redmynjcsjcy",
+      "SQSMessageID": "6847968d-6cae-429d-b265-c0ada7dd5011",
+      "Status": "Success",
+      "Submitter": "Mineshkumar Chavda",
+      "AWSServices": "BMS Services - Serverless",
+      "NumberOfAZ": "4",
+      "AccessControlAdminGroup": "MG-AWS-DEVOPS-SUPPORT",
+      "AvailabilityZones": "use1-az2,use1-az4,use1-az6,use2-az1,use2-az2,use2-az3",
+      "Version": "v1.1",
+      "PlatformDescription": "Internet only serverless.",
+      "Regions": "us-east-1,us-east-2",
+      "ServiceCatalogKits": "devOpsPortfolio",
+      "ServicesResources": "First Stack+1",
+      "BusinessApplication": "aws - custom resources",
+      "PlatformId": "4f6fc205",
+      "TimeStamp": "2021-05-20T15:37:54.201Z",
+      "AccountAlias": "bms-internetonlylab",
+      "AccountExpirationDate": "19-06-2021",
+      "PlatformType": "Disposable Lab - Internet Only",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-AWS-APP-ADMIN-TST",
+      "PlatformOwner2": "Rajan Vashisht",
+      "PlatformOwner1": "Mineshkumar Chavda",
+      "Layers": [
+        {
+          "Layer1": {
+            "PlatformType": "Disposable Lab - Internet Only",
+            "lab": {
+              "AccountNumber": "lab-190145437497",
+              "Tempcred": "text",
+              "PermissionType": [
+                {
+                  "PermissionSet": "SSO-AdminPermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/190145437497%20%28Staging-9f074a3%29/NzI3NTU2MTA4NTQyX2lucy1iMTgzNGY5YzQ1YjU1OWI5X3AtNDEyM2NiYjc4YzY1ZDVkNQ%3D%3D"
+                },
+                {
+                  "PermissionSet": "SSO-Developer-PermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/190145437497%20%28Staging-9f074a3%29/NzI3NTU2MTA4NTQyX2lucy1iMTgzNGY5YzQ1YjU1OWI5X3AtOWVkNmJlNmQ2MzdhMTBiMA%3D%3D"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "APMNumber": "APM100005766",
+      "ContactGroup": "MG-AWS-MULTIVERSE-SUPPORT",
+      "ProvisionProductId": "pp-g2baqalt7udeq",
+      "SQSMessageID": "886b3577-9cf7-488f-b9cc-1e6e9e402a6c",
+      "Status": "Inprogress",
+      "Submitter": "Vijetha V K",
+      "AWSServices": "BMS Services - Server + Serverless",
+      "NumberOfAZ": "2",
+      "AccessControlAdminGroup": "MG-AWS-MULTIVERSE-ADMINS",
+      "AvailabilityZones": "use1-az2,use1-az4,use2-az1,use2-az2",
+      "CIDRSize": "XXS - CIDR with /28- Auto Approval - ( 11 per AZ, 22 Total IPs )",
+      "Version": "v1.1",
+      "PlatformDescription": "Disposable Lab - SB",
+      "UpdateCount": "0",
+      "Regions": "us-east-1,us-east-2",
+      "ServiceCatalogKits": "devOpsPortfolio",
+      "PPM": ["PRJ1234567 (07-06-2021)"],
+      "ServicesResources": "First Stack+1",
+      "BusinessApplication": "multiverse",
+      "PlatformId": "b541108a",
+      "TimeStamp": "2021-06-07T16:19:45.798Z",
+      "AccountAlias": "bms-displabsb",
+      "AccountExpirationDate": "07-07-2021",
+      "PlatformType": "Disposable Lab - Switch Board",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-AWS-MULTIVERSE-DEVELOPERS",
+      "PlatformOwner2": "Saket Dubey",
+      "PlatformOwner1": "Vijetha V K",
+      "ApprovalRequired": true,
+      "ApprovalMessage": "Test Message",
+      "Layers": [
+        {
+          "Layer1": {
+            "PlatformType": "Disposable Lab - Switch Board",
+            "lab": {
+              "AccountNumber": "lab-282828713652",
+              "Tempcred": "text",
+              "PermissionType": [
+                {
+                  "PermissionSet": "SSO-AdminPermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/282828713652%20%28Staging-f8d70b8%29/NzI3NTU2MTA4NTQyX2lucy1lM2UwZWUxMmYwYWNkYmY4X3AtNjBjZTA1YWUxNDRhOTIxYw%3D%3D"
+                },
+                {
+                  "PermissionSet": "SSO-Developer-PermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/282828713652%20%28Staging-f8d70b8%29/NzI3NTU2MTA4NTQyX2lucy1lM2UwZWUxMmYwYWNkYmY4X3AtNTc5ODA1ZTc0NTQ4MDU4OA%3D%3D"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "APMNumber": "APM100002253",
+      "ContactGroup": "MG-AWS-MULTIVERSE-SUPPORT",
+      "SQSMessageID": "95d6cccc-6de5-45d7-9be0-9e0aaf88f144",
+      "Status": "Success",
+      "Submitter": "Mineshkumar Chavda",
+      "AWSServices": "BMS Services - Server + Serverless",
+      "NumberOfAZ": "4",
+      "AccessControlAdminGroup": "MG-AWS-DEVOPS-SUPPORT",
+      "AvailabilityZones": "use1-az2,use1-az4,use1-az6,use2-az1,use2-az2,use2-az3",
+      "Regions": "us-east-1,us-east-2",
+      "VPC": true,
+      "ServiceCatalogKits": "DevOps Portfolio",
+      "PPM": ["PRJ1234567 (22-04-2021)"],
+      "PlatformFor": "businessApplication",
+      "ServicesResources": "First Stack+1",
+      "BusinessApplication": "aws - custom resources",
+      "Environments": "Dev/UAT/Prod",
+      "PlatformId": "6d3504f1",
+      "TimeStamp": "2021-04-22T14:58:56.288Z",
+      "AccountAlias": "bms-testingmv",
+      "PlatformType": "Internet Only - Outbound",
+      "OtherServices": "[]",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-AWS-APP-ADMIN-TST",
+      "PlatformOwner2": "Rajan Vashisht",
+      "PlatformOwner1": "Mineshkumar Chavda",
+      "Layers": [
+        {
+          "Layer1": {
+            "PlatformType": "Internet Only - Outbound",
+            "uat": {
+              "AccountNumber": "uat-049529372165",
+              "Tempcred": "text",
+              "PermissionType": [
+                {
+                  "PermissionSet": "SSO-AdminPermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/049529372165%20%28Staging-e3cbaa0%29/NzI3NTU2MTA4NTQyX2lucy05MTc0OGIyOGNjY2Y3YjNmX3AtODE5NjRhZjgxYWU4YzA1Mg%3D%3D"
+                },
+                {
+                  "PermissionSet": "SSO-Developer-PermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/049529372165%20%28Staging-e3cbaa0%29/NzI3NTU2MTA4NTQyX2lucy05MTc0OGIyOGNjY2Y3YjNmX3AtZTAyY2VhYjExOWFkNDE5ZQ%3D%3D"
+                }
+              ]
+            },
+            "prod": {
+              "AccountNumber": "prod-272643702032",
+              "Tempcred": "text",
+              "PermissionType": [
+                {
+                  "PermissionSet": "SSO-AdminPermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/272643702032%20%28Staging-63e6751%29/NzI3NTU2MTA4NTQyX2lucy1mYzczOGM4Y2I3NjIxZjE3X3AtMTRmMzZmZjgxMzcyYzAyMA%3D%3D"
+                },
+                {
+                  "PermissionSet": "SSO-Developer-PermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/272643702032%20%28Staging-63e6751%29/NzI3NTU2MTA4NTQyX2lucy1mYzczOGM4Y2I3NjIxZjE3X3AtYjZiNjJlYzUzOWFiOGQ2YQ%3D%3D"
+                }
+              ]
+            },
+            "dev": {
+              "AccountNumber": "dev-448193113257",
+              "Tempcred": "text",
+              "PermissionType": [
+                {
+                  "PermissionSet": "SSO-AdminPermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/448193113257%20%28Staging-0435deb%29/NzI3NTU2MTA4NTQyX2lucy1lNWRjNDMwNWZkN2IyYjE5X3AtNzdmZTg2ZGU1ZjZiNzkxYw%3D%3D"
+                },
+                {
+                  "PermissionSet": "SSO-Developer-PermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/448193113257%20%28Staging-0435deb%29/NzI3NTU2MTA4NTQyX2lucy1lNWRjNDMwNWZkN2IyYjE5X3AtOTQyNGRmZDgxZDE0Y2JkYw%3D%3D"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ContactGroup": "MG-AWS-DEVOPS-TRAINING",
+      "Regions": "us-east-1",
+      "ServiceCatalogKits": "devOpsPortfolio",
+      "Status": "Success",
+      "Submitter": "Ethan Sena",
+      "ServicesResources": "First Stack+1",
+      "AccessControlAdminGroup": "MG-AWS-DEVOPS-TRAINING-TCWSADMIN",
+      "PlatformId": "8c2374be",
+      "TimeStamp": "2021-02-08T06:11:58.067Z",
+      "AccountAlias": "bms-mv-test-2",
+      "AccountExpirationDate": "09-02-2021",
+      "PlatformType": "Disposable Lab - Serverless",
+      "PlatformDescription": "test",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-AWS-DEVOPS-TRAINING",
+      "PlatformOwner2": "Ethan Sena",
+      "PlatformOwner1": "Ethan Sena",
+      "Layers": [
+        {
+          "Layer1": {
+            "lab": {
+              "AccountNumber": "lab-470326735205",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ContactGroup": "MG-PAJAYTEST-LAB-DEV",
+      "Regions": "us-east-1,us-east-2",
+      "SQSMessageID": "b721d589-5552-4e74-a085-a60112db59eb",
+      "ServiceCatalogKits": "devOpsPortfolio",
+      "Status": "Success",
+      "Submitter": "Ajay Samant",
+      "AWSServices": "BMS Services - Server + Serverless",
+      "NumberOfAZ": "4",
+      "ServicesResources": "First Stack+1",
+      "AccessControlAdminGroup": "MG-PAJAYTEST-LAB-ADMIN",
+      "PlatformId": "0fc2affa",
+      "TimeStamp": "2021-05-07T18:10:29.410Z",
+      "AccountAlias": "bms-ajmltest",
+      "AccountExpirationDate": "06-06-2021",
+      "AvailabilityZones": "use1-az2,use1-az4,use1-az6,use2-az1,use2-az2,use2-az3",
+      "Version": "v1.1",
+      "PlatformType": "Disposable Lab - Internet Only",
+      "PlatformDescription": "test for kubernetes and quicksight",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-MLATSCALE",
+      "PlatformOwner2": "Christopher Clifford",
+      "PlatformOwner1": "Ajay Samant",
+      "Layers": [
+        {
+          "Layer1": {
+            "lab": {
+              "AccountNumber": "lab-823686054953",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "APMNumber": "APM100005766",
+      "ContactGroup": "MG-AWS-MULTIVERSE-SUPPORT",
+      "ProvisionProductId": "pp-s3wt5cm6b7yeq",
+      "SQSMessageID": "0b79b93e-ff24-4964-8c6c-1e0fc145a515",
+      "Status": "Success",
+      "Submitter": "Vijetha V K",
+      "AWSServices": "BMS Services - Server + Serverless",
+      "NumberOfAZ": "2",
+      "AccessControlAdminGroup": "MG-AWS-MULTIVERSE-ADMINS",
+      "AvailabilityZones": "use1-az2,use1-az4,use2-az1,use2-az2",
+      "Version": "v1.1",
+      "PlatformDescription": "Disposable Lab - IO",
+      "UpdateCount": "2",
+      "Regions": "us-east-1,us-east-2",
+      "ServiceCatalogKits": "devOpsPortfolio",
+      "PPM": ["PRJ1234567 (22-05-2021)"],
+      "ServicesResources": "First Stack+1",
+      "BusinessApplication": "multiverse",
+      "PlatformId": "a1ba1ccd",
+      "TimeStamp": "2021-05-22T09:14:52.340Z",
+      "AccountAlias": "bms-displabio",
+      "AccountExpirationDate": "21-06-2021",
+      "PlatformType": "Disposable Lab - Internet Only",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-AWS-MULTIVERSE-DEVELOPERS",
+      "PlatformOwner2": "Rajan Vashisht",
+      "PlatformOwner1": "Vijetha V K",
+      "Layers": [
+        {
+          "Layer1": {
+            "lab": {
+              "AccountNumber": "lab-210730161461",
+              "Tempcred": "text",
+              "PermissionType": [
+                {
+                  "PermissionSet": "SSO-AdminPermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/210730161461%20%28Staging-6bd10d1%29/NzI3NTU2MTA4NTQyX2lucy0yYjFjNGFkNTU1MzlmYTE5X3AtMGZiMWUyM2QxY2Q0MzM3OQ%3D%3D"
+                },
+                {
+                  "PermissionSet": "SSO-Developer-PermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/210730161461%20%28Staging-6bd10d1%29/NzI3NTU2MTA4NTQyX2lucy0yYjFjNGFkNTU1MzlmYTE5X3AtMWFiMWE4MTRlZTRiNmNiMg%3D%3D"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "devAttachedToAccount": "Devops Lab - 315327487940 - (us-east-1)",
+      "APMNumber": "APM100005766",
+      "prodAttachedToAccount": "Devops Lab - 315327487940 - (us-east-1)",
+      "ContactGroup": "MG-AWS-MULTIVERSE-SUPPORT",
+      "SQSMessageID": "874d5616-9471-4a5a-a1d8-c85610254230",
+      "Status": "Success",
+      "Submitter": "Vijetha V K",
+      "AWSServices": "BMS Services - Server + Serverless",
+      "NumberOfAZ": "4",
+      "AccessControlAdminGroup": "MG-AWS-MULTIVERSE-ADMINS",
+      "IPLattachedToAccount": true,
+      "AvailabilityZones": "use1-az2,use1-az4,use1-az6,use2-az1,use2-az2,use2-az3",
+      "Regions": "us-east-1,us-east-2",
+      "VPC": true,
+      "ServiceCatalogKits": "DevOps Portfolio",
+      "PPM": ["PRJ1234567 (30-04-2021)"],
+      "PlatformFor": "businessApplication",
+      "ServicesResources": "First Stack+1",
+      "BusinessApplication": "multiverse",
+      "Environments": "Dev/Prod",
+      "PlatformId": "51ad8c4f",
+      "TimeStamp": "2021-04-30T17:16:59.665Z",
+      "AccountAlias": "bms-isoplacct",
+      "PlatformType": "Isolated PrivateLink",
+      "OtherServices": "[]",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-AWS-MULTIVERSE-DEVELOPERS",
+      "PlatformOwner2": "Rajan Vashisht",
+      "PlatformOwner1": "Vijetha V K",
+      "Layers": [
+        {
+          "Layer1": {
+            "prod": {
+              "AccountNumber": "prod-853859858383",
+              "Tempcred": "text",
+              "PermissionType": [
+                {
+                  "PermissionSet": "SSO-AdminPermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/853859858383%20%28Staging-004e150%29/NzI3NTU2MTA4NTQyX2lucy0xOTRiYTQxYzUxYjBjZjQ0X3AtNTM3MDlkNTkyY2ViZjU0OQ%3D%3D"
+                },
+                {
+                  "PermissionSet": "SSO-Developer-PermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/853859858383%20%28Staging-004e150%29/NzI3NTU2MTA4NTQyX2lucy0xOTRiYTQxYzUxYjBjZjQ0X3AtODg2ZTEyZmU4MWNkMDkxMg%3D%3D"
+                }
+              ]
+            },
+            "dev": {
+              "AccountNumber": "dev-893754062802",
+              "Tempcred": "text",
+              "PermissionType": [
+                {
+                  "PermissionSet": "SSO-AdminPermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/893754062802%20%28Staging-6947ad9%29/NzI3NTU2MTA4NTQyX2lucy03ZGU0N2Q4ZGQxNThmZjI3X3AtY2EwZTcxYjI5OGMzOWNiZQ%3D%3D"
+                },
+                {
+                  "PermissionSet": "SSO-Developer-PermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/893754062802%20%28Staging-6947ad9%29/NzI3NTU2MTA4NTQyX2lucy03ZGU0N2Q4ZGQxNThmZjI3X3AtYjA4M2EzNWRhNDE3M2YwMA%3D%3D"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "APMNumber": "APM100005766",
+      "ContactGroup": "MG-AWS-MULTIVERSE-SUPPORT",
+      "SQSMessageID": "b8bf387d-938d-498d-8197-48c0e01ae6b3",
+      "Status": "Success",
+      "Submitter": "Rajan Vashisht",
+      "AWSServices": "BMS Services - Server + Serverless",
+      "NumberOfAZ": "4",
+      "AccessControlAdminGroup": "MG-AWS-MULTIVERSE-ADMINS",
+      "AvailabilityZones": "use1-az2,use1-az4,use1-az6,use2-az1,use2-az2,use2-az3",
+      "Regions": "us-east-1,us-east-2",
+      "VPC": true,
+      "ServiceCatalogKits": "DevOps Portfolio",
+      "PPM": ["PRJ1234567 (06-05-2021)"],
+      "PlatformFor": "businessApplication",
+      "ServicesResources": "First Stack+1",
+      "BusinessApplication": "multiverse",
+      "Environments": "Dev/Prod",
+      "PlatformId": "945931f6",
+      "TimeStamp": "2021-05-06T17:21:58.657Z",
+      "AccountAlias": "bms-io-o",
+      "PlatformType": "Internet Only - Outbound",
+      "OtherServices": "[]",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-AWS-MULTIVERSE-DEVELOPERS",
+      "PlatformOwner2": "Vijetha V K",
+      "PlatformOwner1": "Rajan Vashisht",
+      "Layers": [
+        {
+          "Layer1": {
+            "dev": {
+              "AccountNumber": "dev-879580893492",
+              "Tempcred": "text",
+              "PermissionType": [
+                {
+                  "PermissionSet": "SSO-AdminPermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/879580893492%20%28Staging-bd9862b%29/NzI3NTU2MTA4NTQyX2lucy0yMGExYTI4MzgwODhkMjI3X3AtM2UwM2QwMTNkNjZkYjhhZQ%3D%3D"
+                },
+                {
+                  "PermissionSet": "SSO-Developer-PermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/879580893492%20%28Staging-bd9862b%29/NzI3NTU2MTA4NTQyX2lucy0yMGExYTI4MzgwODhkMjI3X3AtMDQ3NDE2ZWVlMTA4NTc0Yw%3D%3D"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ContactGroup": "MG-PLUTO-CTSDEMODEVOPS-1",
+      "ProvisionProductId": "pp-u7l253zlloujg",
+      "Regions": "us-east-1",
+      "SQSMessageID": "6589001d-df0e-4e6a-80f2-4da3e83f705d",
+      "ServiceCatalogKits": "devOpsPortfolio",
+      "Status": "Success",
+      "Submitter": "Sarma Seetamraju",
+      "ServicesResources": "First Stack+1",
+      "AccessControlAdminGroup": "MG--PLUTO-CTSDEVOPS-ADMIN",
+      "PlatformId": "7c47b57c",
+      "TimeStamp": "2021-05-12T15:04:02.196Z",
+      "AccountAlias": "bms-cts-devops-001",
+      "AccountExpirationDate": "11-06-2021",
+      "Version": "v1.1",
+      "PlatformType": "Disposable Lab - Serverless",
+      "PlatformDescription": "As part of May-2021 Multiverse exclusive PILOT workstream, this is Cognizant DevOps team's Multiverse Proof-of-Concept (based on Universe PoC consisting of a React.js based UI-front-end with 2 Lambdas in the backend)",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-PLUTO-CTSDEVOPS-DEVELOPERS",
+      "PlatformOwner2": "Sean Akinpelu",
+      "PlatformOwner1": "Sarma Seetamraju",
+      "Layers": [
+        {
+          "Layer1": {
+            "lab": {
+              "AccountNumber": "lab-311406940810",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "UpdateCount": "0",
+      "ContactGroup": "MG-PLUTO-CTSDEMODEVOPS-1",
+      "ProvisionProductId": "pp-3z32famxzrhoq",
+      "Regions": "us-east-1,us-east-2",
+      "SQSMessageID": "47b8f8dd-244b-4f0b-97cd-b33da9cb5e2e",
+      "ServiceCatalogKits": "devOpsPortfolio",
+      "Status": "Success",
+      "Submitter": "Sean Akinpelu",
+      "AWSServices": "BMS Services - Server + Serverless",
+      "NumberOfAZ": "2",
+      "ServicesResources": "First Stack+1",
+      "AccessControlAdminGroup": "MG-PLUTO-CTSDEVOPS-ADMIN",
+      "PlatformId": "d5f36a87",
+      "TimeStamp": "2021-05-23T16:12:18.946Z",
+      "AccountAlias": "bms-cts-devops-02",
+      "AccountExpirationDate": "22-06-2021",
+      "AvailabilityZones": "use1-az2,use1-az4,use2-az1,use2-az2",
+      "Version": "v1.1",
+      "PlatformType": "Disposable Lab - Internet Only",
+      "PlatformDescription": "This account is for Internet access",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-PLUTO-CTSDEVOPS-DEVELOPERS",
+      "PlatformOwner2": "Sarma Seetamraju",
+      "PlatformOwner1": "Sean Akinpelu",
+      "Layers": [
+        {
+          "Layer1": {
+            "lab": {
+              "AccountNumber": "lab-713613084212",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ContactGroup": "MG-PLUTO-CTSDEMODEVOPS-1",
+      "ProvisionProductId": "pp-pkrgrpzvcjnle",
+      "Regions": "us-east-1",
+      "SQSMessageID": "489052c8-fee3-4ffb-8caf-079f018579d3",
+      "ServiceCatalogKits": "devOpsPortfolio",
+      "Status": "Success",
+      "Submitter": "Sudhakar Reddy Pulim",
+      "ServicesResources": "First Stack+1",
+      "AccessControlAdminGroup": "MG--PLUTO-CTSDEVOPS-ADMIN",
+      "PlatformId": "48180551",
+      "TimeStamp": "2021-05-12T15:07:49.598Z",
+      "AccountAlias": "bms-cts-devops-003",
+      "AccountExpirationDate": "11-06-2021",
+      "Version": "v1.1",
+      "PlatformType": "Disposable Lab - Serverless",
+      "PlatformDescription": "As part of May-2021 Multiverse exclusive PILOT workstream, this is Cognizant DevOps team's Multiverse Proof-of-Concept (based on Universe PoC consisting of a React.js based UI-front-end with 2 Lambdas in the backend",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-PLUTO-CTSDEVOPS-DEVELOPERS",
+      "PlatformOwner2": "Sean Akinpelu",
+      "PlatformOwner1": "Sudhakar Reddy Pulim",
+      "Layers": [
+        {
+          "Layer1": {
+            "lab": {
+              "AccountNumber": "lab-541139024395",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "APMNumber": "APM100002258",
+      "ContactGroup": "MG-AWS-DEVOPS-ENGG",
+      "ProvisionProductId": "pp-bq6orru2luqdq",
+      "SQSMessageID": "b6fb5480-e760-40e0-af94-a03efecca86b",
+      "Status": "Success",
+      "Submitter": "Ramesh Bandi",
+      "AWSServices": "BMS Services - Server + Serverless",
+      "NumberOfAZ": "4",
+      "AccessControlAdminGroup": "MG-MV-NET-ADMIN-TEST",
+      "AvailabilityZones": "use1-az2,use1-az4,use1-az5,use1-az6,use2-az1,use2-az2,use2-az3",
+      "Version": "v1.1",
+      "Regions": "us-east-1,us-east-2",
+      "VPC": true,
+      "ServiceCatalogKits": "DevOps Portfolio",
+      "PPM": ["PRJ1234456 (20-05-2021)"],
+      "PlatformFor": "businessApplication",
+      "ServicesResources": "First Stack+1",
+      "BusinessApplication": "aws dmz kit",
+      "Environments": "Dev/Prod",
+      "PlatformId": "703f515e",
+      "TimeStamp": "2021-05-20T15:45:13.745Z",
+      "AccountAlias": "bms-dmz-test",
+      "PlatformType": "Internet Only - Outbound",
+      "OtherServices": "[]",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-MV-NET-DEVELOPER-TEST",
+      "PlatformOwner2": "Honchong Chang",
+      "PlatformOwner1": "Ramesh Bandi",
+      "Layers": [
+        {
+          "Layer1": {
+            "prod": {
+              "AccountNumber": "prod-131019416376",
+              "Tempcred": "text",
+              "PermissionType": []
+            },
+            "dev": {
+              "AccountNumber": "dev-732112687218",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "APMNumber": "APM100005764",
+      "ContactGroup": "MG-INSITE",
+      "ProvisionProductId": "pp-qo3ae24d2gjwu",
+      "Regions": "us-east-1",
+      "SQSMessageID": "081e031b-a6a7-4a6b-97d9-cd1dbc472cbf",
+      "ServiceCatalogKits": "devOpsPortfolio",
+      "Status": "Success",
+      "Submitter": "Subramanian Natarajan",
+      "PPM": ["PRJ1233445 (10-05-2021)"],
+      "ServicesResources": "First Stack+1",
+      "BusinessApplication": "multi-channel execution engine",
+      "AccessControlAdminGroup": "MG-MV-ADMIN-TEST-GROUP",
+      "PlatformId": "26282c85",
+      "TimeStamp": "2021-05-10T15:15:05.302Z",
+      "AccountAlias": "bms-cost-disposablelab",
+      "AccountExpirationDate": "09-06-2021",
+      "Version": "v1.1",
+      "PlatformType": "Disposable Lab - Serverless",
+      "PlatformDescription": "Test Disposable in New Version",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-MV-DEVELOPER-TEST-GROUP",
+      "PlatformOwner2": "Honchong Chang",
+      "PlatformOwner1": "Subramanian Natarajan",
+      "Layers": [
+        {
+          "Layer1": {
+            "lab": {
+              "AccountNumber": "lab-590019574336",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ContactGroup": "MG-AWS-APP-ADMIN-TST",
+      "Regions": "us-east-1",
+      "Status": "Success",
+      "Submitter": "Rajan Vashisht",
+      "PlatformId": "7f388012",
+      "TimeStamp": "2021-01-28T16:11:11.846Z",
+      "AccountAlias": "bms-internetonly",
+      "AccountExpirationDate": "27-02-2021",
+      "PlatformType": "Null",
+      "PlatformDescription": "Internet Only Account for Greg",
+      "MultiversePlatformType": "Null",
+      "PlatformOwner2": "Honchong Chang",
+      "PlatformOwner1": "Gregory M Stiegler",
+      "Layers": [
+        {
+          "Layer1": {
+            "null": {
+              "AccountNumber": "null-007959359328",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "APMNumber": "APM100006630",
+      "ContactGroup": "MG-SCS-CLOUDOPS",
+      "Regions": "us-east-1,us-east-2",
+      "SQSMessageID": "6dbc2c9e-c1cb-4ca1-9ff1-8ee7d8f6c427",
+      "ServiceCatalogKits": "DevOps Portfolio",
+      "Status": "Success",
+      "Submitter": "Babu Muralidharan",
+      "AWSServices": "BMS Services - Server + Serverless",
+      "NumberOfAZ": "4",
+      "PlatformFor": "businessApplication",
+      "ServicesResources": "First Stack+1",
+      "BusinessApplication": "R&D CADD Group Applications",
+      "Environments": "Dev/Prod",
+      "AccessControlAdminGroup": "SG-ORION-ADMINS",
+      "PlatformId": "c6df8fe4",
+      "TimeStamp": "2021-02-23T16:11:13.160Z",
+      "AccountAlias": "bms-orion",
+      "AvailabilityZones": "use1-az2,use1-az4,use1-az6,use2-az1,use2-az2,use2-az3",
+      "PlatformType": "Isolated PrivateLink",
+      "OtherServices": "[]",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "SG-ORION-ADMINS",
+      "PlatformOwner2": "Brian L Claus",
+      "PlatformOwner1": "Paul O'Malley",
+      "Layers": [
+        {
+          "Layer1": {
+            "dev": {
+              "AccountNumber": "dev-017338398421",
+              "Tempcred": "text",
+              "PermissionType": []
+            },
+            "prod": {
+              "AccountNumber": "prod-958476218323",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "PlatformId": "c6dfep",
+      "Status": "Success",
+      "Layers": [
+        {
+          "Layer1": {
+            "uat": {
+              "AccountNumber": "uat-163351321874",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "APMNumber": "APM100005766",
+      "ContactGroup": "MG-AWS-MULTIVERSE-SUPPORT",
+      "ProvisionProductId": "pp-vkwe46uumkaoq",
+      "SQSMessageID": "eefa5b17-579a-4aa8-a3e0-44721813714b",
+      "Status": "Inprogress",
+      "Submitter": "Vijetha V K",
+      "AWSServices": "BMS Services - Server + Serverless",
+      "NumberOfAZ": "2",
+      "AccessControlAdminGroup": "MG-AWS-MULTIVERSE-ADMINS",
+      "AvailabilityZones": "use1-az2,use1-az4,use2-az1,use2-az2",
+      "CIDRSize": "XXS - CIDR with /28- Auto Approval - ( 11 per AZ, 22 Total IPs )",
+      "Version": "v1.1",
+      "Regions": "us-east-1,us-east-2",
+      "VPC": true,
+      "ServiceCatalogKits": "DevOps Portfolio",
+      "PPM": ["PRJ1234567 (22-05-2021)"],
+      "PlatformFor": "businessApplication",
+      "ServicesResources": "First Stack+1",
+      "BusinessApplication": "multiverse",
+      "Environments": "Dev/Prod",
+      "PlatformId": "a031daa3",
+      "TimeStamp": "2021-05-22T06:55:08.356Z",
+      "AccountAlias": "bms-switchboardacc",
+      "PlatformType": "Switch Board - BMS Connected",
+      "OtherServices": "[]",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-AWS-MULTIVERSE-DEVELOPERS",
+      "PlatformOwner2": "Rajan Vashisht",
+      "PlatformOwner1": "Vijetha V K",
+      "ApprovalRequired": true,
+      "ApprovalMessage": "Test Message",
+      "Layers": [
+        {
+          "Layer1": {
+            "PlatformType": "Switch Board - BMS Connected",
+            "prod": {
+              "AccountNumber": "prod-395183468760",
+              "Tempcred": "text",
+              "PermissionType": [
+                {
+                  "PermissionSet": "SSO-AdminPermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/395183468760%20%28Staging-bfe91c2%29/NzI3NTU2MTA4NTQyX2lucy01NDgwMGJkZTI4NmIxYTdlX3AtOWRiY2IwNTM1YzI2ZTRiNQ%3D%3D"
+                },
+                {
+                  "PermissionSet": "SSO-Developer-PermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/395183468760%20%28Staging-bfe91c2%29/NzI3NTU2MTA4NTQyX2lucy01NDgwMGJkZTI4NmIxYTdlX3AtMzM1ZWEyYzZhZWQwN2U0Nw%3D%3D"
+                }
+              ]
+            },
+            "dev": {
+              "AccountNumber": "dev-951443556205",
+              "Tempcred": "text",
+              "PermissionType": [
+                {
+                  "PermissionSet": "SSO-AdminPermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/951443556205%20%28Staging-d4003b8%29/NzI3NTU2MTA4NTQyX2lucy05NmQ5ODA4Y2QzZmZmM2YwX3AtZDVjMDBjMDRiNTJjOWIxZg%3D%3D"
+                },
+                {
+                  "PermissionSet": "SSO-Developer-PermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/951443556205%20%28Staging-d4003b8%29/NzI3NTU2MTA4NTQyX2lucy05NmQ5ODA4Y2QzZmZmM2YwX3AtMDkzMmM3M2U0NDA4OGJjMg%3D%3D"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "UpdateCount": "0",
+      "ContactGroup": "MG-AWS-SANDBOX-CONTACT",
+      "ProvisionProductId": "pp-iyg7iqibg3dxo",
+      "Regions": "us-east-1,us-east-2",
+      "SQSMessageID": "6183ad68-fb49-4ad0-aa82-dab87fc66913",
+      "ServiceCatalogKits": "devOpsPortfolio",
+      "Status": "Success",
+      "Submitter": "Mohitash Dwivedi",
+      "AWSServices": "BMS Services - Server + Serverless",
+      "NumberOfAZ": "2",
+      "ServicesResources": "First Stack+1",
+      "AccessControlAdminGroup": "MG-AWS-SANDBOX-ADMINS",
+      "PlatformId": "97c73470",
+      "TimeStamp": "2021-06-07T06:15:18.564Z",
+      "AccountAlias": "bms-eds-sandbox",
+      "AccountExpirationDate": "07-07-2021",
+      "AvailabilityZones": "use1-az2,use1-az4,use2-az1,use2-az2",
+      "Version": "v1.1",
+      "PlatformType": "Disposable Lab - Internet Only",
+      "PlatformDescription": "Cloud environment to facilitate experiments while maintaining isolation with regular BMS environments",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-AWS-SANDBOX-DEVELOPERS",
+      "PlatformOwner2": "Alberto Artasanchez",
+      "PlatformOwner1": "Deepak Verma",
+      "Layers": [
+        {
+          "Layer1": {
+            "lab": {
+              "AccountNumber": "lab-057848289020",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "APMNumber": "APM100005766",
+      "ContactGroup": "MG-AWS-MULTIVERSE-SUPPORT",
+      "Regions": "us-east-1,us-east-2",
+      "SQSMessageID": "6c082ca6-ead0-4c53-9026-5f9a8784a313",
+      "ServiceCatalogKits": "devOpsPortfolio",
+      "Status": "Success",
+      "Submitter": "Rajan Vashisht",
+      "AWSServices": "BMS Services - Server + Serverless",
+      "PPM": ["PRJ1234567 (06-05-2021)"],
+      "NumberOfAZ": "4",
+      "ServicesResources": "First Stack+1",
+      "BusinessApplication": "multiverse",
+      "AccessControlAdminGroup": "MG-AWS-MULTIVERSE-ADMINS",
+      "PlatformId": "ee447441",
+      "TimeStamp": "2021-05-06T16:14:57.815Z",
+      "AccountAlias": "bms-dlio-rv",
+      "AccountExpirationDate": "05-06-2021",
+      "AvailabilityZones": "use1-az2,use1-az4,use1-az6,use2-az1,use2-az2,use2-az3",
+      "PlatformType": "Disposable Lab - Internet Only",
+      "PlatformDescription": "Disposable Lab IO",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-AWS-MULTIVERSE-DEVELOPERS",
+      "PlatformOwner2": "Vijetha V K",
+      "PlatformOwner1": "Rajan Vashisht",
+      "Layers": [
+        {
+          "Layer1": {
+            "lab": {
+              "AccountNumber": "lab-136484640196",
+              "Tempcred": "text",
+              "PermissionType": [
+                {
+                  "PermissionSet": "SSO-AdminPermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/136484640196%20%28Staging-239ef25%29/NzI3NTU2MTA4NTQyX2lucy02NmU5Yzc4ZDkwMjA3YjlhX3AtNzViODI3ZGJlM2FmYWEwZQ%3D%3D"
+                },
+                {
+                  "PermissionSet": "SSO-Developer-PermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/136484640196%20%28Staging-239ef25%29/NzI3NTU2MTA4NTQyX2lucy02NmU5Yzc4ZDkwMjA3YjlhX3AtNzBmYzM1MjVhZmQyNjI0Mg%3D%3D"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "devAttachedToAccount": "None",
+      "APMNumber": "APM100005766",
+      "psAttachedToAccount": "None",
+      "prodAttachedToAccount": "None",
+      "ContactGroup": "MG-AWS-MULTIVERSE-SUPPORT",
+      "ProvisionProductId": "pp-a5ygblkzaw6ry",
+      "SQSMessageID": "acc00ef4-8a9d-4280-bbc2-a376cb3f9174",
+      "Status": "Success",
+      "Submitter": "Vijetha V K",
+      "AWSServices": "BMS Services - Server + Serverless",
+      "NumberOfAZ": "4",
+      "AccessControlAdminGroup": "MG-AWS-MULTIVERSE-ADMINS",
+      "IPLattachedToAccount": true,
+      "AvailabilityZones": "use1-az2,use1-az4,use1-az5,use1-az6,use2-az1,use2-az2,use2-az3",
+      "Version": "v1.1",
+      "uat2AttachedToAccount": "None",
+      "Regions": "us-east-1,us-east-2",
+      "prod2AttachedToAccount": "None",
+      "VPC": true,
+      "dev2AttachedToAccount": "None",
+      "uatAttachedToAccount": "None",
+      "ServiceCatalogKits": "DevOps Portfolio",
+      "PPM": ["PRJ1234567 (22-05-2021)"],
+      "PlatformFor": "businessApplication",
+      "ServicesResources": "First Stack+1",
+      "BusinessApplication": "multiverse",
+      "Environments": "Dev/Prod",
+      "PlatformId": "d68ee690",
+      "TimeStamp": "2021-05-22T11:42:30.093Z",
+      "AccountAlias": "bms-isolatedplaccount",
+      "PlatformType": "Isolated PrivateLink",
+      "OtherServices": "[]",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-AWS-MULTIVERSE-DEVELOPERS",
+      "PlatformOwner2": "Rajan Vashisht",
+      "PlatformOwner1": "Vijetha V K",
+      "Layers": [
+        {
+          "Layer1": {
+            "PlatformType": "Isolated PrivateLink",
+            "dev": {
+              "AccountNumber": "dev-497516156495",
+              "Tempcred": "text",
+              "PermissionType": [
+                {
+                  "PermissionSet": "SSO-AdminPermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/497516156495%20%28Staging-5c8157f%29/NzI3NTU2MTA4NTQyX2lucy1mYTZkNThiOTY5YmFmOTY3X3AtZjgxZjQxYmU0ZTFkN2IzMA%3D%3D"
+                },
+                {
+                  "PermissionSet": "SSO-Developer-PermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/497516156495%20%28Staging-5c8157f%29/NzI3NTU2MTA4NTQyX2lucy1mYTZkNThiOTY5YmFmOTY3X3AtODk0ZDdhMzk4NGI3YjM1Mg%3D%3D"
+                }
+              ]
+            },
+            "prod": {
+              "AccountNumber": "prod-940204387660",
+              "Tempcred": "text",
+              "PermissionType": [
+                {
+                  "PermissionSet": "SSO-AdminPermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/940204387660%20%28Staging-192169d%29/NzI3NTU2MTA4NTQyX2lucy1lNDM2M2Y4MGUyNDc3YzFjX3AtZDUwZDQ1MTgxNmM3ZmUyZA%3D%3D"
+                },
+                {
+                  "PermissionSet": "SSO-Developer-PermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/940204387660%20%28Staging-192169d%29/NzI3NTU2MTA4NTQyX2lucy1lNDM2M2Y4MGUyNDc3YzFjX3AtN2ViODE0NjFjZTY1ZGI1Yg%3D%3D"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Layer2": {
+            "PlatformType": "Switch Board - BMS Connected",
+            "dev": {
+              "AccountNumber": "dev-987654321",
+              "Tempcred": "text",
+              "PermissionType": [
+                {
+                  "PermissionSet": "SSO-AdminPermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/497516156495%20%28Staging-5c8157f%29/NzI3NTU2MTA4NTQyX2lucy1mYTZkNThiOTY5YmFmOTY3X3AtZjgxZjQxYmU0ZTFkN2IzMA%3D%3D"
+                },
+                {
+                  "PermissionSet": "SSO-Developer-PermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/497516156495%20%28Staging-5c8157f%29/NzI3NTU2MTA4NTQyX2lucy1mYTZkNThiOTY5YmFmOTY3X3AtODk0ZDdhMzk4NGI3YjM1Mg%3D%3D"
+                }
+              ]
+            },
+            "prod": {
+              "AccountNumber": "prod-940204387660",
+              "Tempcred": "text",
+              "PermissionType": [
+                {
+                  "PermissionSet": "SSO-AdminPermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/940204387660%20%28Staging-192169d%29/NzI3NTU2MTA4NTQyX2lucy1lNDM2M2Y4MGUyNDc3YzFjX3AtZDUwZDQ1MTgxNmM3ZmUyZA%3D%3D"
+                },
+                {
+                  "PermissionSet": "SSO-Developer-PermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/940204387660%20%28Staging-192169d%29/NzI3NTU2MTA4NTQyX2lucy1lNDM2M2Y4MGUyNDc3YzFjX3AtN2ViODE0NjFjZTY1ZGI1Yg%3D%3D"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ContactGroup": "MG-AWS-DEVOPS-TRAINING",
+      "Regions": "us-east-1",
+      "Status": "Success",
+      "Submitter": "Ethan Sena",
+      "AccessControlAdminGroup": "MG-AWS-DEVOPS-TRAINING-TCWSADMIN",
+      "PlatformId": "2d4180da",
+      "TimeStamp": "2021-02-06T19:39:37.378Z",
+      "AccountAlias": "bms-mv-test-1",
+      "AccountExpirationDate": "07-02-2021",
+      "PlatformType": "Null",
+      "PlatformDescription": "Testing Multiverse form capability",
+      "MultiversePlatformType": "Null",
+      "PlatformOwner2": "Ethan Sena",
+      "PlatformOwner1": "Ethan Sena",
+      "Layers": [
+        {
+          "Layer1": {
+            "null": {
+              "AccountNumber": "null-453435561993",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "APMNumber": "APM100005764",
+      "ContactGroup": "MG-INSITE",
+      "ProvisionProductId": "pp-kirkdnjop5tio",
+      "SQSMessageID": "c6f14c2d-505a-4f6c-a0a2-c3b75f16e32c",
+      "Status": "Success",
+      "Submitter": "Subramanian Natarajan",
+      "AWSServices": "BMS Services - Server + Serverless",
+      "NumberOfAZ": "4",
+      "AccessControlAdminGroup": "MG-MV-ADMIN-TEST-GROUP",
+      "AvailabilityZones": "use1-az2,use1-az4,use1-az6,use2-az1,use2-az2,use2-az3",
+      "Version": "v1.1",
+      "Regions": "us-east-1,us-east-2",
+      "VPC": true,
+      "ServiceCatalogKits": "DevOps Portfolio",
+      "PPM": ["PRJ1234566 (10-05-2021)"],
+      "PlatformFor": "businessApplication",
+      "ServicesResources": "First Stack+1",
+      "BusinessApplication": "multi-channel execution engine",
+      "Environments": "Dev/Prod",
+      "PlatformId": "5b5dca10",
+      "TimeStamp": "2021-05-10T15:20:12.003Z",
+      "AccountAlias": "bms-test-mv-cost-outbound",
+      "PlatformType": "Internet Only - Outbound",
+      "OtherServices": "[]",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-MV-DEVELOPER-TEST-GROUP",
+      "PlatformOwner2": "Honchong Chang",
+      "PlatformOwner1": "Subramanian Natarajan",
+      "Layers": [
+        {
+          "Layer1": {
+            "dev": {
+              "AccountNumber": "dev-416510204229",
+              "Tempcred": "text",
+              "PermissionType": []
+            },
+            "prod": {
+              "AccountNumber": "prod-942739364337",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "APMNumber": "APM100003480",
+      "ContactGroup": "MG-PAXATA-OPS-SUPPORT",
+      "ProvisionProductId": "pp-woc3sfew62cos",
+      "SQSMessageID": "76f59387-3417-4c4f-974c-80a056dc7597",
+      "Status": "Success",
+      "Submitter": "Kishore Kumar Ojha",
+      "AWSServices": "BMS Services - Server + Serverless",
+      "NumberOfAZ": "4",
+      "AccessControlAdminGroup": "MG-ACN-AWSSME",
+      "AvailabilityZones": "use1-az2,use1-az4,use1-az6,use2-az1,use2-az2,use2-az3",
+      "Version": "v1.1",
+      "PlatformDescription": "This is sample k8s cluster deployment in Multiverse",
+      "Regions": "us-east-1,us-east-2",
+      "ServiceCatalogKits": "devOpsPortfolio",
+      "ServicesResources": "First Stack+1",
+      "BusinessApplication": "paxata",
+      "PlatformId": "dc05c590",
+      "TimeStamp": "2021-05-20T12:29:38.281Z",
+      "AccountAlias": "bms-paxata-kubernetes-poc",
+      "AccountExpirationDate": "19-06-2021",
+      "PlatformType": "Disposable Lab - Internet Only",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-PAXATA-DEV-SUPPORT",
+      "PlatformOwner2": "Sanjeev Dokiburra",
+      "PlatformOwner1": "Kishore Kumar Ojha",
+      "Layers": [
+        {
+          "Layer1": {
+            "lab": {
+              "AccountNumber": "lab-803697229244",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ContactGroup": "MG-PLUTO-CTSDEMODEVOPS-1",
+      "ProvisionProductId": "pp-mlc4iilryl2ja",
+      "Regions": "us-east-2",
+      "SQSMessageID": "90c840c6-1273-4f90-b0f7-1404cddbcaa6",
+      "ServiceCatalogKits": "devOpsPortfolio",
+      "Status": "Success",
+      "Submitter": "Sarma Seetamraju",
+      "ServicesResources": "First Stack+1",
+      "AccessControlAdminGroup": "MG--PLUTO-CTSDEVOPS-ADMIN",
+      "PlatformId": "f9475011",
+      "TimeStamp": "2021-05-21T17:56:00.021Z",
+      "AccountAlias": "bms-cts-devops-011-lab",
+      "AccountExpirationDate": "20-06-2021",
+      "Version": "v1.1",
+      "PlatformType": "Disposable Lab - Serverless",
+      "PlatformDescription": "Created by SEETAMRS, to try out instantiating Kits (specific to EC2, RDS and Cloud9), to help support Cognizant teams in taking over (AS-IS) any traditional-design based solutions",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-PLUTO-CTSDEVOPS-DEVELOPERS",
+      "PlatformOwner2": "Sean Akinpelu",
+      "PlatformOwner1": "Sarma Seetamraju",
+      "Layers": [
+        {
+          "Layer1": {
+            "lab": {
+              "AccountNumber": "lab-486362678700",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "PlatformId": "c5dlep",
+      "Status": "Success",
+      "Layers": [
+        {
+          "Layer1": {
+            "prod": {
+              "AccountNumber": "prod-964649304725",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "APMNumber": "APM100005766",
+      "ContactGroup": "MG-AWS-MULTIVERSE-SUPPORT",
+      "SQSMessageID": "6be2e156-b6cf-4341-be74-9ad7111e2815",
+      "Status": "Success",
+      "Submitter": "Babu Muralidharan",
+      "AWSServices": "BMS Services - Server + Serverless",
+      "NumberOfAZ": "4",
+      "AccessControlAdminGroup": "MG-AWS-APP-ADMIN-TST",
+      "IPLattachedToAccount": false,
+      "AvailabilityZones": "use1-az2,use1-az4,use1-az6,use2-az1,use2-az2,use2-az3",
+      "Regions": "us-east-1,us-east-2",
+      "VPC": true,
+      "ServiceCatalogKits": "DevOps Portfolio",
+      "PPM": ["PRJ1234567 (06-05-2021)"],
+      "PlatformFor": "businessApplication",
+      "ServicesResources": "First Stack+1",
+      "BusinessApplication": "multiverse",
+      "Environments": "Dev/Prod",
+      "PlatformId": "7d87fc3a",
+      "TimeStamp": "2021-05-07T02:51:23.109Z",
+      "AccountAlias": "bms-muralpv",
+      "PlatformType": "Isolated PrivateLink",
+      "OtherServices": "[]",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-AWS-MULTIVERSE-DEVELOPERS",
+      "PlatformOwner2": "Kshitij Palria",
+      "PlatformOwner1": "Babu Muralidharan",
+      "Layers": [
+        {
+          "Layer1": {
+            "prod": {
+              "AccountNumber": "prod-670366030586",
+              "Tempcred": "text",
+              "PermissionType": [
+                {
+                  "PermissionSet": "SSO-AdminPermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/670366030586%20%28Staging-20be83d%29/NzI3NTU2MTA4NTQyX2lucy05ZGM0YmQ2N2ExMmRhZjEwX3AtNWUzODAxZGFiNzA5MmYzYw%3D%3D"
+                },
+                {
+                  "PermissionSet": "SSO-Developer-PermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/670366030586%20%28Staging-20be83d%29/NzI3NTU2MTA4NTQyX2lucy05ZGM0YmQ2N2ExMmRhZjEwX3AtMmQ0YWI1Mjc5MDEzNjBhZQ%3D%3D"
+                }
+              ]
+            },
+            "dev": {
+              "AccountNumber": "dev-932815656789",
+              "Tempcred": "text",
+              "PermissionType": [
+                {
+                  "PermissionSet": "SSO-AdminPermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/932815656789%20%28Staging-54590f1%29/NzI3NTU2MTA4NTQyX2lucy02Mzk4N2I0NzNhYzY2ZDk4X3AtZWM1YTFkYzdmOTZkZDUxYQ%3D%3D"
+                },
+                {
+                  "PermissionSet": "SSO-Developer-PermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/932815656789%20%28Staging-54590f1%29/NzI3NTU2MTA4NTQyX2lucy02Mzk4N2I0NzNhYzY2ZDk4X3AtMzExMDk5MDRkZjI2OTU0OQ%3D%3D"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "devAttachedToAccount": "None",
+      "APMNumber": "APM100005764",
+      "psAttachedToAccount": "None",
+      "prodAttachedToAccount": "Devops Prod - 465258079489 - (us-east-1,us-east-2)",
+      "ContactGroup": "MG-INSITE",
+      "ProvisionProductId": "pp-6lxtgwy3d4yr6",
+      "SQSMessageID": "f08cd64d-fcdf-44bb-9709-e0c2f405dab5",
+      "Status": "Success",
+      "Submitter": "Subramanian Natarajan",
+      "AWSServices": "BMS Services - Server + Serverless",
+      "NumberOfAZ": "4",
+      "AccessControlAdminGroup": "MG-MV-ADMIN-TEST-GROUP",
+      "IPLattachedToAccount": true,
+      "AvailabilityZones": "use1-az2,use1-az4,use1-az6,use2-az1,use2-az2,use2-az3",
+      "Version": "v1.1",
+      "uat2AttachedToAccount": "None",
+      "Regions": "us-east-1,us-east-2",
+      "prod2AttachedToAccount": "None",
+      "VPC": true,
+      "dev2AttachedToAccount": "None",
+      "uatAttachedToAccount": "None",
+      "ServiceCatalogKits": "DevOps Portfolio",
+      "PPM": ["PRJ1234566 (10-05-2021)"],
+      "PlatformFor": "businessApplication",
+      "ServicesResources": "First Stack+1",
+      "BusinessApplication": "multi-channel execution engine",
+      "Environments": "Dev/Prod",
+      "PlatformId": "273613be",
+      "TimeStamp": "2021-05-10T15:17:35.305Z",
+      "AccountAlias": "bms-test-mv-cost-newversion",
+      "PlatformType": "Isolated PrivateLink",
+      "OtherServices": "[]",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-MV-DEVELOPER-TEST-GROUP",
+      "PlatformOwner2": "Honchong Chang",
+      "PlatformOwner1": "Subramanian Natarajan",
+      "Layers": [
+        {
+          "Layer1": {
+            "dev": {
+              "AccountNumber": "dev-033117149834",
+              "Tempcred": "text",
+              "PermissionType": []
+            },
+            "prod": {
+              "AccountNumber": "prod-540706794926",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "APMNumber": "APM100010122",
+      "ContactGroup": "MG-AWS-RCE-CONTACT",
+      "ProvisionProductId": "pp-7uupvgvq32oly",
+      "SQSMessageID": "0cb27001-ff72-4b0e-b93f-71ee883bdf11",
+      "Status": "Success",
+      "Submitter": "Kshitij Palria",
+      "AWSServices": "BMS Services - Server + Serverless",
+      "NumberOfAZ": "2",
+      "AccessControlAdminGroup": "MG-AWS-RCE-ADMIN",
+      "AvailabilityZones": "use1-az2,use1-az4,use2-az1,use2-az2",
+      "CIDRSize": "XS - CIDR with /27- Auto Approval - ( 27 per AZ, 54 Total IPs )",
+      "Version": "v1.1",
+      "PlatformDescription": "This is for RCE2 to POC Multiverse Switchboard platform",
+      "UpdateCount": "0",
+      "Regions": "us-east-1,us-east-2",
+      "ServiceCatalogKits": "devOpsPortfolio",
+      "ServicesResources": "First Stack+1",
+      "BusinessApplication": "rce2 poc",
+      "PlatformId": "29d6a409",
+      "TimeStamp": "2021-06-03T18:17:21.103Z",
+      "AccountAlias": "bms-rce-swb-poc",
+      "AccountExpirationDate": "03-07-2021",
+      "PlatformType": "Disposable Lab - Switch Board",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-AWS-RCE-DEVELOPERS",
+      "PlatformOwner2": "Honchong Chang",
+      "PlatformOwner1": "Kshitij Palria",
+      "Layers": [
+        {
+          "Layer1": {
+            "lab": {
+              "AccountNumber": "lab-294158400030",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "devAttachedToAccount": "Devops Lab - 315327487940 - (us-east-1)",
+      "APMNumber": "APM100005766",
+      "prodAttachedToAccount": "Devops Lab - 315327487940 - (us-east-1)",
+      "ContactGroup": "MG-AWS-MULTIVERSE-SUPPORT",
+      "SQSMessageID": "ca55016c-b20f-4798-ba91-9ebe2b99e131",
+      "Status": "Success",
+      "Submitter": "Vijetha V K",
+      "AWSServices": "BMS Services - Server + Serverless",
+      "NumberOfAZ": "4",
+      "AccessControlAdminGroup": "MG-AWS-MULTIVERSE-ADMINS",
+      "IPLattachedToAccount": true,
+      "AvailabilityZones": "use1-az2,use1-az4,use1-az6,use2-az1,use2-az2,use2-az3",
+      "Regions": "us-east-1,us-east-2",
+      "VPC": true,
+      "ServiceCatalogKits": "DevOps Portfolio",
+      "PPM": ["PRJ1234567 (27-04-2021)"],
+      "PlatformFor": "businessApplication",
+      "ServicesResources": "First Stack+1",
+      "BusinessApplication": "multiverse",
+      "Environments": "Dev/Prod",
+      "PlatformId": "698932b4",
+      "TimeStamp": "2021-04-27T15:23:15.115Z",
+      "AccountAlias": "bms-isoplacc",
+      "PlatformType": "Isolated PrivateLink",
+      "OtherServices": "[]",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-AWS-MULTIVERSE-DEVELOPERS",
+      "PlatformOwner2": "Pavan M K",
+      "PlatformOwner1": "Vijetha V K",
+      "Layers": [
+        {
+          "Layer1": {
+            "dev": {
+              "AccountNumber": "dev-050555973590",
+              "Tempcred": "text",
+              "PermissionType": [
+                {
+                  "PermissionSet": "SSO-AdminPermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/050555973590%20%28Staging-b9450ac%29/NzI3NTU2MTA4NTQyX2lucy04NjNmM2NmNjIzZmEyYzIzX3AtYzhlOTlkYmQ4NDE0ZTJiYg%3D%3D"
+                },
+                {
+                  "PermissionSet": "SSO-Developer-PermissionSet",
+                  "LoginURL": "https://bms-sso.awsapps.com/start/#/saml/custom/050555973590%20%28Staging-b9450ac%29/NzI3NTU2MTA4NTQyX2lucy04NjNmM2NmNjIzZmEyYzIzX3AtOGJmNWViYzVmZWIwNzEwMA%3D%3D"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "APMNumber": "APM100010122",
+      "ContactGroup": "MG-AWS-RCE-CONTACT",
+      "ProvisionProductId": "pp-sbrgysbky56v4",
+      "SQSMessageID": "f0f8cd07-0add-4ebf-8236-805dadd8b7dc",
+      "Status": "Success",
+      "Submitter": "Kshitij Palria",
+      "AWSServices": "BMS Services - Server + Serverless",
+      "NumberOfAZ": "2",
+      "AccessControlAdminGroup": "MG-AWS-RCE-ADMIN",
+      "AvailabilityZones": "use1-az2,use1-az4,use2-az1,use2-az2",
+      "Version": "v1.1",
+      "PlatformDescription": "This is for RCE2 to POC Multiverse platform.",
+      "UpdateCount": "0",
+      "Regions": "us-east-1,us-east-2",
+      "ServiceCatalogKits": "devOpsPortfolio",
+      "ServicesResources": "First Stack+1",
+      "BusinessApplication": "rce2 poc",
+      "PlatformId": "7f3d4b50",
+      "TimeStamp": "2021-06-03T18:14:10.276Z",
+      "AccountAlias": "bms-rce-int-poc",
+      "AccountExpirationDate": "03-07-2021",
+      "PlatformType": "Disposable Lab - Internet Only",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "MG-AWS-RCE-DEVELOPERS",
+      "PlatformOwner2": "Honchong Chang",
+      "PlatformOwner1": "Kshitij Palria",
+      "Layers": [
+        {
+          "Layer1": {
+            "lab": {
+              "AccountNumber": "lab-091377897722",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "APMNumber": "APM100005766",
+      "ContactGroup": "MG-AWS-ADMIN-PROD",
+      "Regions": "us-east-1,us-east-2",
+      "SQSMessageID": "e58c43d5-219e-40c1-88df-3edceefd4da4",
+      "ServiceCatalogKits": "DevOps Portfolio",
+      "Status": "Success",
+      "Submitter": "Babu Muralidharan",
+      "AWSServices": "BMS Services - Server + Serverless",
+      "NumberOfAZ": "4",
+      "PlatformFor": "businessApplication",
+      "ServicesResources": "First Stack+1",
+      "BusinessApplication": "Multiverse",
+      "Environments": "Dev/Prod",
+      "AccessControlAdminGroup": "SG-Multiverse-InternetOnly-Admin",
+      "PlatformId": "ada516aa",
+      "TimeStamp": "2021-02-19T19:30:22.170Z",
+      "AccountAlias": "bms-internet-only",
+      "AvailabilityZones": "use1-az2,use1-az4,use1-az6,use2-az1,use2-az2,use2-az3",
+      "PlatformType": "Isolated PrivateLink",
+      "OtherServices": "[]",
+      "MultiversePlatformType": "Multiverse Platform",
+      "AccessControlDeveloperGroup": "SG-Multiverse-InternetOnly-Dev",
+      "PlatformOwner2": "Babu Muralidharan",
+      "PlatformOwner1": "Honchong Chang",
+      "Layers": [
+        {
+          "Layer1": {
+            "prod": {
+              "AccountNumber": "prod-308252752636",
+              "Tempcred": "text",
+              "PermissionType": []
+            },
+            "dev": {
+              "AccountNumber": "dev-454207819790",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        },
+        {
+          "Layer2": {
+            "dev": {
+              "AccountNumber": "dev-209354392979",
+              "Tempcred": "text",
+              "PermissionType": []
+            },
+            "prod": {
+              "AccountNumber": "prod-456731355888",
+              "Tempcred": "text",
+              "PermissionType": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
