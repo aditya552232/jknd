@@ -1,26 +1,5 @@
 {
 	"BackupResourceDetails": [ {
-		"ResourceName": "i-0773e3c7462534485",
-		"Backup": false,
-		"Account": "565971182615",
-		"Service": "EC2",
-		"RequestId": "bae8951",
-		"Region": "us-east-1"
-	}, {
-		"ResourceName": "i-05d13edd4a8c686df",
-		"Backup": false,
-		"Account": "565971182615",
-		"Service": "EC2",
-		"RequestId": "747b850",
-		"Region": "us-east-1"
-	}, {
-		"ResourceName": "vol-0caadbefb0dcfdd12",
-		"Backup": false,
-		"Account": "565971182615",
-		"Service": "EBS",
-		"RequestId": "ab5678b",
-		"Region": "us-east-1"
-	}, {
 		"ResourceName": "i-04608e10c58787c08",
 		"Backup": false,
 		"Account": "565971182615",
